@@ -1,0 +1,14 @@
+{
+  "name": "estrutura-organizacional",
+  "version": "1.0.0",
+  "description": "Aplicação web para cadastro de organizações, departamentos e hierarquia de cargos, com visualização em organograma.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Estrutura Organizacional — Organogramas</title>
+<link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+
+<div class="app-shell">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-mark">EO</div>
+      <div class="brand-title">Estrutura Organizacional</div>
+      <div class="brand-sub">Organizações &amp; Organogramas</div>
+    </div>
+
+    <nav class="nav" id="nav">
+      <a class="nav-link" data-route="organizacoes" href="#/organizacoes">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 21V5a1 1 0 011-1h6a1 1 0 011 1v16M14 21V9a1 1 0 011-1h4a1 1 0 011 1v12" stroke="currentColor" stroke-width="1.8"/><path d="M7 8h1M7 12h1M7 16h1M17 12h1M17 16h1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        Organizações
+      </a>
+    </nav>
+
+    <div id="breadcrumb-nav" class="breadcrumb-nav" style="display:none"></div>
+
+    <div class="sidebar-foot">Dados salvos localmente em <code>data/db.json</code></div>
+  </aside>
+
+  <div class="main">
+    <header class="topbar" id="topbar">
+      <div>
+        <h1 id="page-title">Organizações</h1>
+        <div class="subtitle" id="page-subtitle">Cadastre as organizações e explore seus departamentos</div>
+      </div>
+      <div class="topbar-actions" id="topbar-actions"></div>
+    </header>
+
+    <main class="content" id="content"></main>
+  </div>
+</div>
+
+<div id="modal-root"></div>
+<div class="toast-wrap" id="toast-root"></div>
+
+<script src="../public/js/app.js"></script>
+</body>
+</html>
