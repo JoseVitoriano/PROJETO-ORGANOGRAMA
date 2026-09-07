@@ -9,7 +9,7 @@
       "localizacao": "Corrente -PI",
       "descricao": "",
       "createdAt": "2026-09-07T02:30:20.223Z",
-      "updatedAt": "2026-09-07T02:30:20.223Z"
+      "updatedAt": "2026-09-07T16:45:11.503Z"
     }
   ],
   "departamentos": [
@@ -77,8 +77,8 @@
   "meta": {
     "nextId": {
       "organizacoes": 3,
-      "departamentos": 8,
-      "nodes": 6
+      "departamentos": 9,
+      "nodes": 8
     }
   }
 }
