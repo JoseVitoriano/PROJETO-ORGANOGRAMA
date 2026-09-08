@@ -10,65 +10,1011 @@
       "descricao": "",
       "createdAt": "2026-09-08T16:27:48.323Z",
       "updatedAt": "2026-09-08T16:27:48.323Z"
+    },
+    {
+      "id": 5,
+      "nome": "Região CAD",
+      "unidade": "FIlial",
+      "setor": "Varejista",
+      "responsavelGeral": "Silva",
+      "localizacao": "Campo Maior - PI",
+      "descricao": "",
+      "createdAt": "2026-09-08T18:53:28.945Z",
+      "updatedAt": "2026-09-08T18:53:51.751Z"
+    },
+    {
+      "id": 6,
+      "nome": "Região CDF",
+      "unidade": "Filial",
+      "setor": "Varejista",
+      "responsavelGeral": "Almeida",
+      "localizacao": "Codó - MA",
+      "descricao": "",
+      "createdAt": "2026-09-08T18:58:04.958Z",
+      "updatedAt": "2026-09-08T18:58:04.958Z"
+    },
+    {
+      "id": 7,
+      "nome": "Região SRD",
+      "unidade": "FIlial",
+      "setor": "Varejista",
+      "responsavelGeral": "Aparecida",
+      "localizacao": "São Raimundo Nonato",
+      "descricao": "",
+      "createdAt": "2026-09-08T19:02:35.076Z",
+      "updatedAt": "2026-09-08T19:02:35.076Z"
+    },
+    {
+      "id": 8,
+      "nome": "Região DAG",
+      "unidade": "FIlial",
+      "setor": "Varejista",
+      "responsavelGeral": "Henrique",
+      "localizacao": "Araguaína - TO",
+      "descricao": "",
+      "createdAt": "2026-09-08T19:19:33.217Z",
+      "updatedAt": "2026-09-08T19:19:33.218Z"
     }
   ],
   "departamentos": [
     {
-      "id": 10,
-      "nome": "Região CDE",
+      "id": 11,
+      "nome": "Depósito",
       "descricao": "",
       "organizacaoId": 4,
-      "createdAt": "2026-09-08T16:27:57.498Z",
-      "updatedAt": "2026-09-08T16:27:57.498Z"
+      "createdAt": "2026-09-08T18:30:44.736Z",
+      "updatedAt": "2026-09-08T18:30:44.736Z"
+    },
+    {
+      "id": 12,
+      "nome": "Depósito",
+      "descricao": "",
+      "organizacaoId": 5,
+      "createdAt": "2026-09-08T18:54:01.914Z",
+      "updatedAt": "2026-09-08T18:54:01.914Z"
+    },
+    {
+      "id": 13,
+      "nome": "Depósito",
+      "descricao": "",
+      "organizacaoId": 6,
+      "createdAt": "2026-09-08T18:58:19.610Z",
+      "updatedAt": "2026-09-08T18:58:19.610Z"
+    },
+    {
+      "id": 14,
+      "nome": "Depósito",
+      "descricao": "",
+      "organizacaoId": 7,
+      "createdAt": "2026-09-08T19:02:53.175Z",
+      "updatedAt": "2026-09-08T19:02:53.175Z"
+    },
+    {
+      "id": 15,
+      "nome": "Depósito",
+      "descricao": "",
+      "organizacaoId": 8,
+      "createdAt": "2026-09-08T19:19:44.530Z",
+      "updatedAt": "2026-09-08T19:19:44.530Z"
     }
   ],
   "nodes": [
     {
-      "id": 10,
+      "id": 44,
       "nome": "Cledson",
       "cargo": "GERENTE",
       "observacoes": "",
-      "departamentoId": 10,
+      "departamentoId": 11,
       "parentId": null,
-      "createdAt": "2026-09-08T16:28:13.757Z",
-      "updatedAt": "2026-09-08T16:28:13.757Z"
+      "createdAt": "2026-09-08T18:30:59.237Z",
+      "updatedAt": "2026-09-08T18:30:59.237Z"
     },
     {
-      "id": 23,
-      "nome": "MARCONE",
+      "id": 45,
+      "nome": "Marcone",
       "cargo": "COORD. PEDIDO",
       "observacoes": "",
-      "departamentoId": 10,
-      "parentId": 10,
-      "createdAt": "2026-09-08T16:41:07.434Z",
-      "updatedAt": "2026-09-08T16:41:07.434Z"
+      "departamentoId": 11,
+      "parentId": 44,
+      "createdAt": "2026-09-08T18:33:44.359Z",
+      "updatedAt": "2026-09-08T18:33:44.359Z"
     },
     {
-      "id": 24,
-      "nome": "DANIEL",
+      "id": 46,
+      "nome": "Daniel",
       "cargo": "LÍDER DE DEPÓSITO",
       "observacoes": "",
-      "departamentoId": 10,
-      "parentId": 10,
-      "createdAt": "2026-09-08T16:41:21.078Z",
-      "updatedAt": "2026-09-08T16:41:21.078Z"
+      "departamentoId": 11,
+      "parentId": 44,
+      "createdAt": "2026-09-08T18:33:55.384Z",
+      "updatedAt": "2026-09-08T18:33:55.384Z"
     },
     {
-      "id": 25,
-      "nome": "KAIQUE",
+      "id": 47,
+      "nome": "Kaique",
       "cargo": "ESTOQUISTA",
       "observacoes": "",
-      "departamentoId": 10,
-      "parentId": 10,
-      "createdAt": "2026-09-08T16:41:36.051Z",
-      "updatedAt": "2026-09-08T16:41:36.051Z"
+      "departamentoId": 11,
+      "parentId": 44,
+      "createdAt": "2026-09-08T18:34:18.292Z",
+      "updatedAt": "2026-09-08T18:34:18.292Z"
+    },
+    {
+      "id": 48,
+      "nome": "-",
+      "cargo": "ADMINISTRATIVO",
+      "observacoes": "",
+      "departamentoId": 11,
+      "parentId": 46,
+      "createdAt": "2026-09-08T18:36:37.735Z",
+      "updatedAt": "2026-09-08T18:36:37.735Z"
+    },
+    {
+      "id": 49,
+      "nome": "-",
+      "cargo": "OPERACIONAL 1",
+      "observacoes": "",
+      "departamentoId": 11,
+      "parentId": 46,
+      "createdAt": "2026-09-08T18:36:46.075Z",
+      "updatedAt": "2026-09-08T18:36:46.075Z"
+    },
+    {
+      "id": 50,
+      "nome": "-",
+      "cargo": "OPERACIONAL 2",
+      "observacoes": "",
+      "departamentoId": 11,
+      "parentId": 46,
+      "createdAt": "2026-09-08T18:36:54.564Z",
+      "updatedAt": "2026-09-08T18:36:54.565Z"
+    },
+    {
+      "id": 51,
+      "nome": "Uanderson",
+      "cargo": "AUX. ADMINISTRATIVO",
+      "observacoes": "",
+      "departamentoId": 11,
+      "parentId": 48,
+      "createdAt": "2026-09-08T18:37:30.945Z",
+      "updatedAt": "2026-09-08T18:37:30.945Z"
+    },
+    {
+      "id": 52,
+      "nome": "José",
+      "cargo": "AUX. DEPÓSITO",
+      "observacoes": "",
+      "departamentoId": 11,
+      "parentId": 49,
+      "createdAt": "2026-09-08T18:37:56.266Z",
+      "updatedAt": "2026-09-08T18:37:56.266Z"
+    },
+    {
+      "id": 53,
+      "nome": "Igor",
+      "cargo": "MOTORISTA",
+      "observacoes": "",
+      "departamentoId": 11,
+      "parentId": 49,
+      "createdAt": "2026-09-08T18:38:19.956Z",
+      "updatedAt": "2026-09-08T18:38:19.956Z"
+    },
+    {
+      "id": 54,
+      "nome": "Arnon",
+      "cargo": "Motorista",
+      "observacoes": "",
+      "departamentoId": 11,
+      "parentId": 50,
+      "createdAt": "2026-09-08T18:39:01.259Z",
+      "updatedAt": "2026-09-08T19:09:57.054Z"
+    },
+    {
+      "id": 56,
+      "nome": "Joabe",
+      "cargo": "AUX. ENTREGA",
+      "observacoes": "",
+      "departamentoId": 11,
+      "parentId": 50,
+      "createdAt": "2026-09-08T18:40:25.562Z",
+      "updatedAt": "2026-09-08T19:10:34.594Z"
+    },
+    {
+      "id": 57,
+      "nome": "Fábio",
+      "cargo": "MONTADOR",
+      "observacoes": "",
+      "departamentoId": 11,
+      "parentId": 50,
+      "createdAt": "2026-09-08T18:40:54.237Z",
+      "updatedAt": "2026-09-08T18:41:36.928Z"
+    },
+    {
+      "id": 58,
+      "nome": "Silva",
+      "cargo": "GERENTE",
+      "observacoes": "",
+      "departamentoId": 12,
+      "parentId": null,
+      "createdAt": "2026-09-08T18:54:14.922Z",
+      "updatedAt": "2026-09-08T18:54:14.922Z"
+    },
+    {
+      "id": 59,
+      "nome": "Araujo",
+      "cargo": "COORD. PEDIDO",
+      "observacoes": "",
+      "departamentoId": 12,
+      "parentId": 58,
+      "createdAt": "2026-09-08T18:54:28.504Z",
+      "updatedAt": "2026-09-08T18:54:28.504Z"
+    },
+    {
+      "id": 60,
+      "nome": "Luismar",
+      "cargo": "LÍDER DE DEPÓSITO",
+      "observacoes": "",
+      "departamentoId": 12,
+      "parentId": 58,
+      "createdAt": "2026-09-08T18:54:40.591Z",
+      "updatedAt": "2026-09-08T18:54:40.591Z"
+    },
+    {
+      "id": 61,
+      "nome": "-",
+      "cargo": "ADMINISTRATIVO",
+      "observacoes": "",
+      "departamentoId": 12,
+      "parentId": 60,
+      "createdAt": "2026-09-08T18:54:52.186Z",
+      "updatedAt": "2026-09-08T18:54:52.186Z"
+    },
+    {
+      "id": 62,
+      "nome": "-",
+      "cargo": "OPERACIONAL 1",
+      "observacoes": "",
+      "departamentoId": 12,
+      "parentId": 60,
+      "createdAt": "2026-09-08T18:55:00.606Z",
+      "updatedAt": "2026-09-08T18:55:00.606Z"
+    },
+    {
+      "id": 63,
+      "nome": "-",
+      "cargo": "OPERACIONAL 2",
+      "observacoes": "",
+      "departamentoId": 12,
+      "parentId": 60,
+      "createdAt": "2026-09-08T18:55:09.779Z",
+      "updatedAt": "2026-09-08T18:55:09.779Z"
+    },
+    {
+      "id": 64,
+      "nome": "Rafael",
+      "cargo": "AUX. ESTOQUE",
+      "observacoes": "",
+      "departamentoId": 12,
+      "parentId": 61,
+      "createdAt": "2026-09-08T18:55:32.255Z",
+      "updatedAt": "2026-09-08T18:55:32.255Z"
+    },
+    {
+      "id": 65,
+      "nome": "Fabiano",
+      "cargo": "AUX. DEPÓSITO",
+      "observacoes": "",
+      "departamentoId": 12,
+      "parentId": 62,
+      "createdAt": "2026-09-08T18:55:50.454Z",
+      "updatedAt": "2026-09-08T18:55:50.454Z"
+    },
+    {
+      "id": 66,
+      "nome": "Alexandre",
+      "cargo": "MOTORISTA",
+      "observacoes": "",
+      "departamentoId": 12,
+      "parentId": 62,
+      "createdAt": "2026-09-08T18:56:21.401Z",
+      "updatedAt": "2026-09-08T19:11:39.519Z"
+    },
+    {
+      "id": 67,
+      "nome": "Eduardo",
+      "cargo": "AUX. ENTREGA",
+      "observacoes": "",
+      "departamentoId": 12,
+      "parentId": 63,
+      "createdAt": "2026-09-08T18:56:50.821Z",
+      "updatedAt": "2026-09-08T19:12:35.460Z"
+    },
+    {
+      "id": 68,
+      "nome": "Deodoro",
+      "cargo": "MONTADOR",
+      "observacoes": "",
+      "departamentoId": 12,
+      "parentId": 63,
+      "createdAt": "2026-09-08T18:57:19.475Z",
+      "updatedAt": "2026-09-08T19:13:46.652Z"
+    },
+    {
+      "id": 69,
+      "nome": "Almeida",
+      "cargo": "GERENTE",
+      "observacoes": "",
+      "departamentoId": 13,
+      "parentId": null,
+      "createdAt": "2026-09-08T18:58:35.402Z",
+      "updatedAt": "2026-09-08T18:58:35.403Z"
+    },
+    {
+      "id": 70,
+      "nome": "João Pedro",
+      "cargo": "COORD. PEDIDO",
+      "observacoes": "",
+      "departamentoId": 13,
+      "parentId": 69,
+      "createdAt": "2026-09-08T18:58:53.244Z",
+      "updatedAt": "2026-09-08T18:58:53.244Z"
+    },
+    {
+      "id": 71,
+      "nome": "Ricardo",
+      "cargo": "LÍDER DE DEPÓSITO",
+      "observacoes": "",
+      "departamentoId": 13,
+      "parentId": 69,
+      "createdAt": "2026-09-08T18:59:05.624Z",
+      "updatedAt": "2026-09-08T18:59:05.624Z"
+    },
+    {
+      "id": 72,
+      "nome": "Bayma",
+      "cargo": "ESTOQUISTA",
+      "observacoes": "",
+      "departamentoId": 13,
+      "parentId": 69,
+      "createdAt": "2026-09-08T18:59:17.741Z",
+      "updatedAt": "2026-09-08T18:59:17.741Z"
+    },
+    {
+      "id": 73,
+      "nome": "Charles",
+      "cargo": "AUX. ESTOQUE",
+      "observacoes": "",
+      "departamentoId": 13,
+      "parentId": 71,
+      "createdAt": "2026-09-08T19:00:01.767Z",
+      "updatedAt": "2026-09-08T19:14:24.316Z"
+    },
+    {
+      "id": 74,
+      "nome": "Carvalho",
+      "cargo": "AUX. DEPÓSITO",
+      "observacoes": "",
+      "departamentoId": 13,
+      "parentId": 71,
+      "createdAt": "2026-09-08T19:00:17.647Z",
+      "updatedAt": "2026-09-08T19:00:17.647Z"
+    },
+    {
+      "id": 75,
+      "nome": "Erisvan",
+      "cargo": "MOTORISTA",
+      "observacoes": "",
+      "departamentoId": 13,
+      "parentId": 71,
+      "createdAt": "2026-09-08T19:00:49.705Z",
+      "updatedAt": "2026-09-08T19:15:23.254Z"
+    },
+    {
+      "id": 76,
+      "nome": "Martins",
+      "cargo": "AUX. ENTREGA",
+      "observacoes": "",
+      "departamentoId": 13,
+      "parentId": 71,
+      "createdAt": "2026-09-08T19:01:13.943Z",
+      "updatedAt": "2026-09-08T19:16:27.028Z"
+    },
+    {
+      "id": 77,
+      "nome": "Rogerio",
+      "cargo": "MONTADOR",
+      "observacoes": "",
+      "departamentoId": 13,
+      "parentId": 71,
+      "createdAt": "2026-09-08T19:01:45.495Z",
+      "updatedAt": "2026-09-08T19:18:13.545Z"
+    },
+    {
+      "id": 78,
+      "nome": "Aparecida",
+      "cargo": "GERENTE",
+      "observacoes": "",
+      "departamentoId": 14,
+      "parentId": null,
+      "createdAt": "2026-09-08T19:03:07.835Z",
+      "updatedAt": "2026-09-08T19:03:07.835Z"
+    },
+    {
+      "id": 79,
+      "nome": "Marcone",
+      "cargo": "COORD. PEDIDO",
+      "observacoes": "",
+      "departamentoId": 14,
+      "parentId": 78,
+      "createdAt": "2026-09-08T19:03:24.633Z",
+      "updatedAt": "2026-09-08T19:03:24.633Z"
+    },
+    {
+      "id": 80,
+      "nome": "Zélio",
+      "cargo": "LÍDER DE DEPÓSITO",
+      "observacoes": "",
+      "departamentoId": 14,
+      "parentId": 78,
+      "createdAt": "2026-09-08T19:03:34.812Z",
+      "updatedAt": "2026-09-08T19:03:34.812Z"
+    },
+    {
+      "id": 81,
+      "nome": "Eric Johnson",
+      "cargo": "ESTOQUISTA",
+      "observacoes": "",
+      "departamentoId": 14,
+      "parentId": 78,
+      "createdAt": "2026-09-08T19:03:56.973Z",
+      "updatedAt": "2026-09-08T19:03:56.973Z"
+    },
+    {
+      "id": 82,
+      "nome": "-",
+      "cargo": "ADMINISTRATIVO",
+      "observacoes": "",
+      "departamentoId": 14,
+      "parentId": 80,
+      "createdAt": "2026-09-08T19:04:06.992Z",
+      "updatedAt": "2026-09-08T19:04:06.992Z"
+    },
+    {
+      "id": 83,
+      "nome": "-",
+      "cargo": "OPERACIONAL 1",
+      "observacoes": "",
+      "departamentoId": 14,
+      "parentId": 80,
+      "createdAt": "2026-09-08T19:04:14.149Z",
+      "updatedAt": "2026-09-08T19:04:14.149Z"
+    },
+    {
+      "id": 84,
+      "nome": "-",
+      "cargo": "OPERACIONAL 2",
+      "observacoes": "",
+      "departamentoId": 14,
+      "parentId": 80,
+      "createdAt": "2026-09-08T19:04:22.206Z",
+      "updatedAt": "2026-09-08T19:04:22.206Z"
+    },
+    {
+      "id": 85,
+      "nome": "Maicon",
+      "cargo": "CONFERENTE",
+      "observacoes": "",
+      "departamentoId": 14,
+      "parentId": 83,
+      "createdAt": "2026-09-08T19:04:45.516Z",
+      "updatedAt": "2026-09-08T19:04:45.516Z"
+    },
+    {
+      "id": 86,
+      "nome": "Rian",
+      "cargo": "AUX. DEPÓSITO",
+      "observacoes": "",
+      "departamentoId": 14,
+      "parentId": 83,
+      "createdAt": "2026-09-08T19:05:02.083Z",
+      "updatedAt": "2026-09-08T19:05:02.083Z"
+    },
+    {
+      "id": 87,
+      "nome": "Lucio",
+      "cargo": "MOTORISTA",
+      "observacoes": "",
+      "departamentoId": 14,
+      "parentId": 83,
+      "createdAt": "2026-09-08T19:05:19.918Z",
+      "updatedAt": "2026-09-08T19:09:01.425Z"
+    },
+    {
+      "id": 88,
+      "nome": "Ademilton",
+      "cargo": "MOTORISTA",
+      "observacoes": "",
+      "departamentoId": 14,
+      "parentId": 84,
+      "createdAt": "2026-09-08T19:06:02.942Z",
+      "updatedAt": "2026-09-08T19:06:02.942Z"
+    },
+    {
+      "id": 89,
+      "nome": "Gustavo",
+      "cargo": "AUX. ENTREGA",
+      "observacoes": "",
+      "departamentoId": 14,
+      "parentId": 84,
+      "createdAt": "2026-09-08T19:06:27.006Z",
+      "updatedAt": "2026-09-08T19:06:27.007Z"
+    },
+    {
+      "id": 90,
+      "nome": "Ailson",
+      "cargo": "AUX. ENTREGA",
+      "observacoes": "",
+      "departamentoId": 14,
+      "parentId": 89,
+      "createdAt": "2026-09-08T19:06:47.630Z",
+      "updatedAt": "2026-09-08T19:06:47.630Z"
+    },
+    {
+      "id": 91,
+      "nome": "Pedro",
+      "cargo": "AUX. ENTREGA",
+      "observacoes": "",
+      "departamentoId": 14,
+      "parentId": 90,
+      "createdAt": "2026-09-08T19:07:07.512Z",
+      "updatedAt": "2026-09-08T19:07:07.512Z"
+    },
+    {
+      "id": 92,
+      "nome": "Alan",
+      "cargo": "MONTADOR",
+      "observacoes": "",
+      "departamentoId": 14,
+      "parentId": 84,
+      "createdAt": "2026-09-08T19:07:31.470Z",
+      "updatedAt": "2026-09-08T19:07:31.470Z"
+    },
+    {
+      "id": 93,
+      "nome": "Terceirizado 1",
+      "cargo": "MONTADOR",
+      "observacoes": "",
+      "departamentoId": 14,
+      "parentId": 92,
+      "createdAt": "2026-09-08T19:07:58.461Z",
+      "updatedAt": "2026-09-08T19:07:58.461Z"
+    },
+    {
+      "id": 94,
+      "nome": "Terceirizado 2",
+      "cargo": "MONTADOR",
+      "observacoes": "",
+      "departamentoId": 14,
+      "parentId": 93,
+      "createdAt": "2026-09-08T19:08:20.308Z",
+      "updatedAt": "2026-09-08T19:08:20.308Z"
+    },
+    {
+      "id": 95,
+      "nome": "Edvonaldo",
+      "cargo": "MOTORISTA",
+      "observacoes": "",
+      "departamentoId": 14,
+      "parentId": 87,
+      "createdAt": "2026-09-08T19:08:48.547Z",
+      "updatedAt": "2026-09-08T19:08:48.547Z"
+    },
+    {
+      "id": 96,
+      "nome": "Jorge",
+      "cargo": "MOTORISTA",
+      "observacoes": "",
+      "departamentoId": 11,
+      "parentId": 54,
+      "createdAt": "2026-09-08T19:09:47.075Z",
+      "updatedAt": "2026-09-08T19:09:47.075Z"
+    },
+    {
+      "id": 97,
+      "nome": "Miqueias",
+      "cargo": "AUX. ENTREGA",
+      "observacoes": "",
+      "departamentoId": 11,
+      "parentId": 56,
+      "createdAt": "2026-09-08T19:10:22.180Z",
+      "updatedAt": "2026-09-08T19:10:22.180Z"
+    },
+    {
+      "id": 98,
+      "nome": "Sales",
+      "cargo": "MOTORISTA",
+      "observacoes": "",
+      "departamentoId": 12,
+      "parentId": 66,
+      "createdAt": "2026-09-08T19:10:59.337Z",
+      "updatedAt": "2026-09-08T19:10:59.337Z"
+    },
+    {
+      "id": 99,
+      "nome": "Jardelu",
+      "cargo": "MOTORISTA",
+      "observacoes": "",
+      "departamentoId": 12,
+      "parentId": 98,
+      "createdAt": "2026-09-08T19:11:13.320Z",
+      "updatedAt": "2026-09-08T19:11:13.320Z"
+    },
+    {
+      "id": 100,
+      "nome": "Rene",
+      "cargo": "MOTORISTA",
+      "observacoes": "",
+      "departamentoId": 12,
+      "parentId": 99,
+      "createdAt": "2026-09-08T19:11:27.433Z",
+      "updatedAt": "2026-09-08T19:11:27.433Z"
+    },
+    {
+      "id": 101,
+      "nome": "Fabio",
+      "cargo": "AUX. ENTREGA",
+      "observacoes": "",
+      "departamentoId": 12,
+      "parentId": 67,
+      "createdAt": "2026-09-08T19:11:57.875Z",
+      "updatedAt": "2026-09-08T19:11:57.875Z"
+    },
+    {
+      "id": 102,
+      "nome": "Edvey",
+      "cargo": "AUX. ENTREGA",
+      "observacoes": "",
+      "departamentoId": 12,
+      "parentId": 101,
+      "createdAt": "2026-09-08T19:12:20.508Z",
+      "updatedAt": "2026-09-08T19:12:20.508Z"
+    },
+    {
+      "id": 103,
+      "nome": "Terceirizado 1",
+      "cargo": "MONTADOR",
+      "observacoes": "",
+      "departamentoId": 12,
+      "parentId": 68,
+      "createdAt": "2026-09-08T19:12:58.230Z",
+      "updatedAt": "2026-09-08T19:12:58.230Z"
+    },
+    {
+      "id": 104,
+      "nome": "Terceirizado 2",
+      "cargo": "MONTADOR",
+      "observacoes": "",
+      "departamentoId": 12,
+      "parentId": 103,
+      "createdAt": "2026-09-08T19:13:14.053Z",
+      "updatedAt": "2026-09-08T19:13:14.053Z"
+    },
+    {
+      "id": 105,
+      "nome": "Terceirizado 3",
+      "cargo": "MONTADOR",
+      "observacoes": "",
+      "departamentoId": 12,
+      "parentId": 104,
+      "createdAt": "2026-09-08T19:13:30.717Z",
+      "updatedAt": "2026-09-08T19:13:30.717Z"
+    },
+    {
+      "id": 106,
+      "nome": "Aprendiz 1",
+      "cargo": "AUX. ESTOQUE",
+      "observacoes": "",
+      "departamentoId": 13,
+      "parentId": 73,
+      "createdAt": "2026-09-08T19:14:16.896Z",
+      "updatedAt": "2026-09-08T19:14:16.896Z"
+    },
+    {
+      "id": 107,
+      "nome": "Jesus",
+      "cargo": "MOTORISTA",
+      "observacoes": "",
+      "departamentoId": 13,
+      "parentId": 75,
+      "createdAt": "2026-09-08T19:14:48.016Z",
+      "updatedAt": "2026-09-08T19:14:48.016Z"
+    },
+    {
+      "id": 108,
+      "nome": "Nilson",
+      "cargo": "MOTORISTA",
+      "observacoes": "",
+      "departamentoId": 13,
+      "parentId": 107,
+      "createdAt": "2026-09-08T19:15:00.282Z",
+      "updatedAt": "2026-09-08T19:15:00.282Z"
+    },
+    {
+      "id": 109,
+      "nome": "Genilson",
+      "cargo": "MOTORISTA",
+      "observacoes": "",
+      "departamentoId": 13,
+      "parentId": 108,
+      "createdAt": "2026-09-08T19:15:13.844Z",
+      "updatedAt": "2026-09-08T19:15:13.844Z"
+    },
+    {
+      "id": 110,
+      "nome": "Felipe",
+      "cargo": "AUX. ENTREGA",
+      "observacoes": "",
+      "departamentoId": 13,
+      "parentId": 76,
+      "createdAt": "2026-09-08T19:15:47.318Z",
+      "updatedAt": "2026-09-08T19:15:47.318Z"
+    },
+    {
+      "id": 111,
+      "nome": "Fransueldon",
+      "cargo": "AUX. ENTREGA",
+      "observacoes": "",
+      "departamentoId": 13,
+      "parentId": 110,
+      "createdAt": "2026-09-08T19:16:15.899Z",
+      "updatedAt": "2026-09-08T19:16:15.899Z"
+    },
+    {
+      "id": 112,
+      "nome": "Raimundo",
+      "cargo": "MONTADOR",
+      "observacoes": "",
+      "departamentoId": 13,
+      "parentId": 77,
+      "createdAt": "2026-09-08T19:16:54.671Z",
+      "updatedAt": "2026-09-08T19:16:54.671Z"
+    },
+    {
+      "id": 113,
+      "nome": "Manuel",
+      "cargo": "MONTADOR",
+      "observacoes": "",
+      "departamentoId": 13,
+      "parentId": 112,
+      "createdAt": "2026-09-08T19:17:12.434Z",
+      "updatedAt": "2026-09-08T19:17:12.434Z"
+    },
+    {
+      "id": 114,
+      "nome": "Italo",
+      "cargo": "MONTADOR",
+      "observacoes": "",
+      "departamentoId": 13,
+      "parentId": 113,
+      "createdAt": "2026-09-08T19:17:30.951Z",
+      "updatedAt": "2026-09-08T19:17:30.951Z"
+    },
+    {
+      "id": 115,
+      "nome": "Eliton",
+      "cargo": "MONTADOR",
+      "observacoes": "",
+      "departamentoId": 13,
+      "parentId": 114,
+      "createdAt": "2026-09-08T19:17:59.282Z",
+      "updatedAt": "2026-09-08T19:17:59.282Z"
+    },
+    {
+      "id": 116,
+      "nome": "Henrique",
+      "cargo": "GERENTE",
+      "observacoes": "",
+      "departamentoId": 15,
+      "parentId": null,
+      "createdAt": "2026-09-08T19:20:03.121Z",
+      "updatedAt": "2026-09-08T19:20:03.121Z"
+    },
+    {
+      "id": 117,
+      "nome": "Daniella",
+      "cargo": "COORD. PEDIDO",
+      "observacoes": "",
+      "departamentoId": 15,
+      "parentId": 116,
+      "createdAt": "2026-09-08T19:20:16.804Z",
+      "updatedAt": "2026-09-08T19:20:16.804Z"
+    },
+    {
+      "id": 118,
+      "nome": "Vicente",
+      "cargo": "LÍDER DE DEPÓSITO",
+      "observacoes": "",
+      "departamentoId": 15,
+      "parentId": 116,
+      "createdAt": "2026-09-08T19:20:28.592Z",
+      "updatedAt": "2026-09-08T19:20:28.592Z"
+    },
+    {
+      "id": 119,
+      "nome": "-",
+      "cargo": "ESTOQUISTA",
+      "observacoes": "",
+      "departamentoId": 15,
+      "parentId": 116,
+      "createdAt": "2026-09-08T19:20:42.884Z",
+      "updatedAt": "2026-09-08T19:20:42.884Z"
+    },
+    {
+      "id": 120,
+      "nome": "-",
+      "cargo": "ADMINISTRATIVO",
+      "observacoes": "",
+      "departamentoId": 15,
+      "parentId": 118,
+      "createdAt": "2026-09-08T19:20:51.834Z",
+      "updatedAt": "2026-09-08T19:20:51.834Z"
+    },
+    {
+      "id": 121,
+      "nome": "-",
+      "cargo": "OPERACIONAL 1",
+      "observacoes": "",
+      "departamentoId": 15,
+      "parentId": 118,
+      "createdAt": "2026-09-08T19:21:01.577Z",
+      "updatedAt": "2026-09-08T19:21:01.577Z"
+    },
+    {
+      "id": 122,
+      "nome": "Vitoria",
+      "cargo": "OPERACIONAL 2",
+      "observacoes": "",
+      "departamentoId": 15,
+      "parentId": 118,
+      "createdAt": "2026-09-08T19:21:08.410Z",
+      "updatedAt": "2026-09-08T19:23:25.296Z"
+    },
+    {
+      "id": 123,
+      "nome": "Denilza",
+      "cargo": "AUX. ADMINISTRATIVO",
+      "observacoes": "",
+      "departamentoId": 15,
+      "parentId": 120,
+      "createdAt": "2026-09-08T19:21:29.687Z",
+      "updatedAt": "2026-09-08T19:21:29.687Z"
+    },
+    {
+      "id": 124,
+      "nome": "Italo",
+      "cargo": "PCP",
+      "observacoes": "",
+      "departamentoId": 15,
+      "parentId": 120,
+      "createdAt": "2026-09-08T19:21:55.701Z",
+      "updatedAt": "2026-09-08T19:21:55.701Z"
+    },
+    {
+      "id": 125,
+      "nome": "Marco",
+      "cargo": "AUX. DEPÓSITO",
+      "observacoes": "",
+      "departamentoId": 15,
+      "parentId": 121,
+      "createdAt": "2026-09-08T19:22:09.616Z",
+      "updatedAt": "2026-09-08T19:22:09.616Z"
+    },
+    {
+      "id": 126,
+      "nome": "Marcelo",
+      "cargo": "AUX. DEPÓSITO",
+      "observacoes": "",
+      "departamentoId": 15,
+      "parentId": 125,
+      "createdAt": "2026-09-08T19:22:25.151Z",
+      "updatedAt": "2026-09-08T19:22:25.151Z"
+    },
+    {
+      "id": 127,
+      "nome": "Ronan",
+      "cargo": "EMPILHADOR",
+      "observacoes": "",
+      "departamentoId": 15,
+      "parentId": 121,
+      "createdAt": "2026-09-08T19:22:42.377Z",
+      "updatedAt": "2026-09-08T19:22:42.377Z"
+    },
+    {
+      "id": 128,
+      "nome": "Elielson",
+      "cargo": "EMPILHADOR",
+      "observacoes": "",
+      "departamentoId": 15,
+      "parentId": 127,
+      "createdAt": "2026-09-08T19:22:55.452Z",
+      "updatedAt": "2026-09-08T19:22:55.452Z"
+    },
+    {
+      "id": 129,
+      "nome": "Odair",
+      "cargo": "CONFERENTE",
+      "observacoes": "",
+      "departamentoId": 15,
+      "parentId": 121,
+      "createdAt": "2026-09-08T19:23:08.240Z",
+      "updatedAt": "2026-09-08T19:23:08.240Z"
+    },
+    {
+      "id": 130,
+      "nome": "Paulo",
+      "cargo": "MOTORISTA",
+      "observacoes": "",
+      "departamentoId": 15,
+      "parentId": 122,
+      "createdAt": "2026-09-08T19:23:44.938Z",
+      "updatedAt": "2026-09-08T19:23:44.938Z"
+    },
+    {
+      "id": 131,
+      "nome": "Marcelo",
+      "cargo": "MOTORISTA",
+      "observacoes": "",
+      "departamentoId": 15,
+      "parentId": 130,
+      "createdAt": "2026-09-08T19:23:59.568Z",
+      "updatedAt": "2026-09-08T19:23:59.568Z"
+    },
+    {
+      "id": 132,
+      "nome": "Carlos",
+      "cargo": "MOTORISTA",
+      "observacoes": "",
+      "departamentoId": 15,
+      "parentId": 131,
+      "createdAt": "2026-09-08T19:24:14.180Z",
+      "updatedAt": "2026-09-08T19:24:14.180Z"
+    },
+    {
+      "id": 133,
+      "nome": "Fracisco",
+      "cargo": "MOTORISTA",
+      "observacoes": "",
+      "departamentoId": 15,
+      "parentId": 132,
+      "createdAt": "2026-09-08T19:24:29.400Z",
+      "updatedAt": "2026-09-08T19:24:29.400Z"
+    },
+    {
+      "id": 134,
+      "nome": "Luciano",
+      "cargo": "AUX. ENTREGA",
+      "observacoes": "",
+      "departamentoId": 15,
+      "parentId": 122,
+      "createdAt": "2026-09-08T19:24:46.675Z",
+      "updatedAt": "2026-09-08T19:24:46.675Z"
+    },
+    {
+      "id": 135,
+      "nome": "-",
+      "cargo": "MONTADOR",
+      "observacoes": "",
+      "departamentoId": 15,
+      "parentId": 122,
+      "createdAt": "2026-09-08T19:25:01.186Z",
+      "updatedAt": "2026-09-08T19:25:01.186Z"
     }
   ],
   "meta": {
     "nextId": {
-      "organizacoes": 5,
-      "departamentos": 11,
-      "nodes": 29
+      "organizacoes": 9,
+      "departamentos": 16,
+      "nodes": 136
     }
   }
 }

@@ -55,11 +55,8 @@ button, input, select, textarea { font-family: inherit; font-size: inherit; colo
   position: sticky; top: 0; height: 100vh;
 }
 .brand { display: flex; flex-direction: column; gap: 2px; padding: 4px 10px 22px; border-bottom: 1px solid rgba(255,255,255,0.08); margin-bottom: 16px; }
-.brand-icon{ width: 100px; height: 50px;
-}
-
 .brand-mark {
-  width: 130px; height: 30px; border-radius: 9px;
+  width: 135px; height: 34px; border-radius: 9px;
   display: flex; align-items: center; justify-content: center;
   font-weight: 700; color: #EAFBF6; font-size: 15px; margin-bottom: 10px;
 }
@@ -182,7 +179,7 @@ button, input, select, textarea { font-family: inherit; font-size: inherit; colo
 .orgchart, .orgchart ul {
   display: inline-block;
   width: max-content; /* impede que os floats "quebrem linha" quando a árvore é mais larga que o espaço visível — sem isso, ramos com profundidades diferentes aparentam (visualmente) pertencer ao ramo errado */
-  padding-top: 24px;
+  padding: 24px 0 0 0; /* zera o padding-left padrão de <ul> do navegador — ele estava deslocando os cards para a direita e quebrando a centralização */
   position: relative;
   margin: 0;
 }
@@ -191,6 +188,7 @@ button, input, select, textarea { font-family: inherit; font-size: inherit; colo
 
 .orgchart li {
   float: left;
+  text-align: center;
   list-style: none;
   position: relative;
   padding: 24px 12px 0 12px;
@@ -233,10 +231,11 @@ button, input, select, textarea { font-family: inherit; font-size: inherit; colo
   padding: 10px 14px;
   min-width: 168px;
   max-width: 220px;
+  margin: 0 auto; /* centraliza o card quando ele é mais estreito que o espaço reservado pela sua ramificação (filhos mais largos abaixo dele) */
   box-shadow: var(--shadow-1);
   text-align: left;
   cursor: default;
-  position: center;
+  position: relative;
   z-index: 1;
 }
 .org-node .on-cargo {
