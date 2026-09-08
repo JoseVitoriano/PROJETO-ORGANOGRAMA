@@ -9,7 +9,7 @@
       "localizacao": "Corrente - PI",
       "descricao": "",
       "createdAt": "2026-09-08T16:27:48.323Z",
-      "updatedAt": "2026-09-08T16:27:48.323Z"
+      "updatedAt": "2026-09-08T20:06:39.814Z"
     },
     {
       "id": 5,
@@ -20,7 +20,7 @@
       "localizacao": "Campo Maior - PI",
       "descricao": "",
       "createdAt": "2026-09-08T18:53:28.945Z",
-      "updatedAt": "2026-09-08T18:53:51.751Z"
+      "updatedAt": "2026-09-08T20:07:00.135Z"
     },
     {
       "id": 6,
@@ -31,7 +31,7 @@
       "localizacao": "Codó - MA",
       "descricao": "",
       "createdAt": "2026-09-08T18:58:04.958Z",
-      "updatedAt": "2026-09-08T18:58:04.958Z"
+      "updatedAt": "2026-09-08T20:07:19.854Z"
     },
     {
       "id": 7,
@@ -42,7 +42,7 @@
       "localizacao": "São Raimundo Nonato",
       "descricao": "",
       "createdAt": "2026-09-08T19:02:35.076Z",
-      "updatedAt": "2026-09-08T19:02:35.076Z"
+      "updatedAt": "2026-09-08T20:06:17.013Z"
     },
     {
       "id": 8,
@@ -53,49 +53,68 @@
       "localizacao": "Araguaína - TO",
       "descricao": "",
       "createdAt": "2026-09-08T19:19:33.217Z",
-      "updatedAt": "2026-09-08T19:19:33.218Z"
+      "updatedAt": "2026-09-08T20:05:55.425Z"
+    },
+    {
+      "id": 9,
+      "nome": "Região DBH",
+      "unidade": "FIlial",
+      "setor": "Varejista",
+      "responsavelGeral": "Pereira",
+      "localizacao": "Barreirinhas - MA",
+      "descricao": "",
+      "createdAt": "2026-09-08T20:05:02.820Z",
+      "updatedAt": "2026-09-08T20:05:35.660Z"
     }
   ],
   "departamentos": [
     {
       "id": 11,
       "nome": "Depósito",
-      "descricao": "",
+      "descricao": "Última atualização realizada em: 09/01/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Cledson (COR) e Daniel (CDE)",
       "organizacaoId": 4,
       "createdAt": "2026-09-08T18:30:44.736Z",
-      "updatedAt": "2026-09-08T18:30:44.736Z"
+      "updatedAt": "2026-09-08T20:06:46.048Z"
     },
     {
       "id": 12,
       "nome": "Depósito",
-      "descricao": "",
+      "descricao": "Última atualização realizada em: 03/02/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Silva (CAM) e Luismar (CAD)",
       "organizacaoId": 5,
       "createdAt": "2026-09-08T18:54:01.914Z",
-      "updatedAt": "2026-09-08T18:54:01.914Z"
+      "updatedAt": "2026-09-08T20:07:05.645Z"
     },
     {
       "id": 13,
       "nome": "Depósito",
-      "descricao": "",
+      "descricao": "Última atualização realizada em: 30/01/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Almeida (COD) e Ricardo (CDF)",
       "organizacaoId": 6,
       "createdAt": "2026-09-08T18:58:19.610Z",
-      "updatedAt": "2026-09-08T18:58:19.610Z"
+      "updatedAt": "2026-09-08T20:07:28.626Z"
     },
     {
       "id": 14,
       "nome": "Depósito",
-      "descricao": "",
+      "descricao": "Última atualização realizada em: 09/01/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Aparecida (SRN) e Zelio (SRD)",
       "organizacaoId": 7,
       "createdAt": "2026-09-08T19:02:53.175Z",
-      "updatedAt": "2026-09-08T19:02:53.175Z"
+      "updatedAt": "2026-09-08T20:06:22.619Z"
     },
     {
       "id": 15,
       "nome": "Depósito",
-      "descricao": "",
+      "descricao": "Última atualização realizada em: 03/02/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Henrique (ARG) e Vicente (DAG)",
       "organizacaoId": 8,
       "createdAt": "2026-09-08T19:19:44.530Z",
-      "updatedAt": "2026-09-08T19:19:44.530Z"
+      "updatedAt": "2026-09-08T20:06:01.744Z"
+    },
+    {
+      "id": 16,
+      "nome": "Depósito",
+      "descricao": "Última atualização realizada em: 04/05/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Pereira (BHA) e Ailton (DBH)",
+      "organizacaoId": 9,
+      "createdAt": "2026-09-08T20:05:15.972Z",
+      "updatedAt": "2026-09-08T20:05:42.719Z"
     }
   ],
   "nodes": [
@@ -1008,13 +1027,213 @@
       "parentId": 122,
       "createdAt": "2026-09-08T19:25:01.186Z",
       "updatedAt": "2026-09-08T19:25:01.186Z"
+    },
+    {
+      "id": 136,
+      "nome": "Pereira",
+      "cargo": "GERENTE",
+      "observacoes": "",
+      "departamentoId": 16,
+      "parentId": null,
+      "createdAt": "2026-09-08T20:07:49.704Z",
+      "updatedAt": "2026-09-08T20:07:49.704Z"
+    },
+    {
+      "id": 137,
+      "nome": "José Carlos",
+      "cargo": "COORD. PEDIDO",
+      "observacoes": "",
+      "departamentoId": 16,
+      "parentId": 136,
+      "createdAt": "2026-09-08T20:08:08.899Z",
+      "updatedAt": "2026-09-08T20:08:08.899Z"
+    },
+    {
+      "id": 138,
+      "nome": "Ailton",
+      "cargo": "LÍDER DE DEPÓSITO",
+      "observacoes": "",
+      "departamentoId": 16,
+      "parentId": 136,
+      "createdAt": "2026-09-08T20:08:20.265Z",
+      "updatedAt": "2026-09-08T20:08:20.265Z"
+    },
+    {
+      "id": 139,
+      "nome": "Valdiner",
+      "cargo": "ESTOQUISTA",
+      "observacoes": "",
+      "departamentoId": 16,
+      "parentId": 136,
+      "createdAt": "2026-09-08T20:08:32.007Z",
+      "updatedAt": "2026-09-08T20:08:32.007Z"
+    },
+    {
+      "id": 140,
+      "nome": "-",
+      "cargo": "ADMINISTRATIVO",
+      "observacoes": "",
+      "departamentoId": 16,
+      "parentId": 138,
+      "createdAt": "2026-09-08T20:08:41.598Z",
+      "updatedAt": "2026-09-08T20:08:41.598Z"
+    },
+    {
+      "id": 141,
+      "nome": "-",
+      "cargo": "OPERACIONAL 1",
+      "observacoes": "",
+      "departamentoId": 16,
+      "parentId": 138,
+      "createdAt": "2026-09-08T20:08:50.143Z",
+      "updatedAt": "2026-09-08T20:08:50.143Z"
+    },
+    {
+      "id": 142,
+      "nome": "-",
+      "cargo": "OPERACIONAL 2",
+      "observacoes": "",
+      "departamentoId": 16,
+      "parentId": 138,
+      "createdAt": "2026-09-08T20:08:58.079Z",
+      "updatedAt": "2026-09-08T20:08:58.079Z"
+    },
+    {
+      "id": 143,
+      "nome": "Zacarias",
+      "cargo": "AUX. ADMINISTRATIVO",
+      "observacoes": "",
+      "departamentoId": 16,
+      "parentId": 140,
+      "createdAt": "2026-09-08T20:09:14.999Z",
+      "updatedAt": "2026-09-08T20:09:14.999Z"
+    },
+    {
+      "id": 144,
+      "nome": "Jeferson",
+      "cargo": "AUX. DEPÓSITO",
+      "observacoes": "",
+      "departamentoId": 16,
+      "parentId": 141,
+      "createdAt": "2026-09-08T20:09:41.526Z",
+      "updatedAt": "2026-09-08T20:09:41.526Z"
+    },
+    {
+      "id": 145,
+      "nome": "Moises",
+      "cargo": "AUX. DEPÓSITO",
+      "observacoes": "",
+      "departamentoId": 16,
+      "parentId": 144,
+      "createdAt": "2026-09-08T20:09:56.201Z",
+      "updatedAt": "2026-09-08T20:09:56.201Z"
+    },
+    {
+      "id": 146,
+      "nome": "Josivan",
+      "cargo": "AUX. DEPÓSITO",
+      "observacoes": "",
+      "departamentoId": 16,
+      "parentId": 145,
+      "createdAt": "2026-09-08T20:10:09.689Z",
+      "updatedAt": "2026-09-08T20:10:09.689Z"
+    },
+    {
+      "id": 147,
+      "nome": "Leandro",
+      "cargo": "MOTORISTA",
+      "observacoes": "",
+      "departamentoId": 16,
+      "parentId": 142,
+      "createdAt": "2026-09-08T20:10:27.051Z",
+      "updatedAt": "2026-09-08T20:10:27.051Z"
+    },
+    {
+      "id": 148,
+      "nome": "Jhon",
+      "cargo": "AUX. ENTREGA",
+      "observacoes": "",
+      "departamentoId": 16,
+      "parentId": 142,
+      "createdAt": "2026-09-08T20:10:41.403Z",
+      "updatedAt": "2026-09-08T20:10:41.403Z"
+    },
+    {
+      "id": 149,
+      "nome": "Jonilson",
+      "cargo": "MONTADOR",
+      "observacoes": "",
+      "departamentoId": 16,
+      "parentId": 142,
+      "createdAt": "2026-09-08T20:10:55.004Z",
+      "updatedAt": "2026-09-08T20:10:55.004Z"
+    },
+    {
+      "id": 150,
+      "nome": "Jailson",
+      "cargo": "MOTORISTA",
+      "observacoes": "",
+      "departamentoId": 16,
+      "parentId": 147,
+      "createdAt": "2026-09-08T20:11:09.916Z",
+      "updatedAt": "2026-09-08T20:11:09.916Z"
+    },
+    {
+      "id": 151,
+      "nome": "Barroso",
+      "cargo": "MOTORISTA",
+      "observacoes": "",
+      "departamentoId": 16,
+      "parentId": 150,
+      "createdAt": "2026-09-08T20:11:29.553Z",
+      "updatedAt": "2026-09-08T20:11:29.553Z"
+    },
+    {
+      "id": 152,
+      "nome": "Gilmar",
+      "cargo": "MOTORISTA",
+      "observacoes": "",
+      "departamentoId": 16,
+      "parentId": 151,
+      "createdAt": "2026-09-08T20:11:43.301Z",
+      "updatedAt": "2026-09-08T20:11:43.301Z"
+    },
+    {
+      "id": 153,
+      "nome": "Helio",
+      "cargo": "AUX. ENTREGA",
+      "observacoes": "",
+      "departamentoId": 16,
+      "parentId": 148,
+      "createdAt": "2026-09-08T20:12:03.119Z",
+      "updatedAt": "2026-09-08T20:12:03.119Z"
+    },
+    {
+      "id": 154,
+      "nome": "Messias",
+      "cargo": "MONTADOR",
+      "observacoes": "",
+      "departamentoId": 16,
+      "parentId": 149,
+      "createdAt": "2026-09-08T20:12:18.387Z",
+      "updatedAt": "2026-09-08T20:12:18.387Z"
+    },
+    {
+      "id": 155,
+      "nome": "Rodrigues",
+      "cargo": "MONTADOR",
+      "observacoes": "",
+      "departamentoId": 16,
+      "parentId": 154,
+      "createdAt": "2026-09-08T20:12:37.389Z",
+      "updatedAt": "2026-09-08T20:12:37.389Z"
     }
   ],
   "meta": {
     "nextId": {
-      "organizacoes": 9,
-      "departamentos": 16,
-      "nodes": 136
+      "organizacoes": 10,
+      "departamentos": 17,
+      "nodes": 156
     }
   }
 }
