@@ -1,12 +1,74 @@
 {
-  "organizacoes": [],
-  "departamentos": [],
-  "nodes": [],
+  "organizacoes": [
+    {
+      "id": 4,
+      "nome": "Região CDE",
+      "unidade": "FIlial",
+      "setor": "Varejista",
+      "responsavelGeral": "Cledson",
+      "localizacao": "Corrente - PI",
+      "descricao": "",
+      "createdAt": "2026-09-08T16:27:48.323Z",
+      "updatedAt": "2026-09-08T16:27:48.323Z"
+    }
+  ],
+  "departamentos": [
+    {
+      "id": 10,
+      "nome": "Região CDE",
+      "descricao": "",
+      "organizacaoId": 4,
+      "createdAt": "2026-09-08T16:27:57.498Z",
+      "updatedAt": "2026-09-08T16:27:57.498Z"
+    }
+  ],
+  "nodes": [
+    {
+      "id": 10,
+      "nome": "Cledson",
+      "cargo": "GERENTE",
+      "observacoes": "",
+      "departamentoId": 10,
+      "parentId": null,
+      "createdAt": "2026-09-08T16:28:13.757Z",
+      "updatedAt": "2026-09-08T16:28:13.757Z"
+    },
+    {
+      "id": 23,
+      "nome": "MARCONE",
+      "cargo": "COORD. PEDIDO",
+      "observacoes": "",
+      "departamentoId": 10,
+      "parentId": 10,
+      "createdAt": "2026-09-08T16:41:07.434Z",
+      "updatedAt": "2026-09-08T16:41:07.434Z"
+    },
+    {
+      "id": 24,
+      "nome": "DANIEL",
+      "cargo": "LÍDER DE DEPÓSITO",
+      "observacoes": "",
+      "departamentoId": 10,
+      "parentId": 10,
+      "createdAt": "2026-09-08T16:41:21.078Z",
+      "updatedAt": "2026-09-08T16:41:21.078Z"
+    },
+    {
+      "id": 25,
+      "nome": "KAIQUE",
+      "cargo": "ESTOQUISTA",
+      "observacoes": "",
+      "departamentoId": 10,
+      "parentId": 10,
+      "createdAt": "2026-09-08T16:41:36.051Z",
+      "updatedAt": "2026-09-08T16:41:36.051Z"
+    }
+  ],
   "meta": {
     "nextId": {
-      "organizacoes": 3,
-      "departamentos": 9,
-      "nodes": 8
+      "organizacoes": 5,
+      "departamentos": 11,
+      "nodes": 29
     }
   }
 }

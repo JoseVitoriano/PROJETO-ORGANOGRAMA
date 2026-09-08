@@ -236,7 +236,7 @@ button, input, select, textarea { font-family: inherit; font-size: inherit; colo
   box-shadow: var(--shadow-1);
   text-align: left;
   cursor: default;
-  position: relative;
+  position: center;
   z-index: 1;
 }
 .org-node .on-cargo {

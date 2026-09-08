@@ -423,7 +423,7 @@ async function renderOrganograma(content, deptId, title, subtitle, actions, bcNa
   actions.innerHTML = `<button class="btn btn-primary" id="btn-novo-cargo">+ Adicionar cargo</button>`;
   document.getElementById('btn-novo-cargo').onclick = () => openNodeForm(deptId, nodes, null, null);
 
-  bcNav.style.display = 'flex';
+  bcNav.style.display = 'center';
   bcNav.innerHTML = `
     <a class="bc-org" href="#/organizacoes">← Todas as organizações</a>
     ${dept.organizacao ? `<a class="bc-org" href="#/organizacoes/${dept.organizacao.id}/departamentos">${esc(dept.organizacao.nome)}</a>` : ''}
