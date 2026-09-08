@@ -9,7 +9,7 @@ const url = require('url');
 
 const db = require('./lib/jsonDb');
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 5500;
 const PUBLIC_DIR = path.join(__dirname, 'public');
 
 const MIME = {

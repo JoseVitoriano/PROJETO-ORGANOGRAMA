@@ -55,9 +55,11 @@ button, input, select, textarea { font-family: inherit; font-size: inherit; colo
   position: sticky; top: 0; height: 100vh;
 }
 .brand { display: flex; flex-direction: column; gap: 2px; padding: 4px 10px 22px; border-bottom: 1px solid rgba(255,255,255,0.08); margin-bottom: 16px; }
+.brand-icon{ width: 100px; height: 50px;
+}
+
 .brand-mark {
-  width: 34px; height: 34px; border-radius: 9px;
-  background: linear-gradient(135deg, var(--teal), #145E51);
+  width: 130px; height: 30px; border-radius: 9px;
   display: flex; align-items: center; justify-content: center;
   font-weight: 700; color: #EAFBF6; font-size: 15px; margin-bottom: 10px;
 }
