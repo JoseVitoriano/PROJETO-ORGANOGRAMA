@@ -65,6 +65,281 @@
       "descricao": "",
       "createdAt": "2026-09-08T20:05:02.820Z",
       "updatedAt": "2026-09-08T20:05:35.660Z"
+    },
+    {
+      "id": 10,
+      "nome": "Região DBC",
+      "unidade": "Filial",
+      "setor": "Varejista",
+      "responsavelGeral": "Charles",
+      "localizacao": "Barra do Corda - MA",
+      "descricao": "",
+      "createdAt": "2026-09-09T11:38:35.442Z",
+      "updatedAt": "2026-09-09T11:38:35.443Z"
+    },
+    {
+      "id": 11,
+      "nome": "Região DVG",
+      "unidade": "Filial",
+      "setor": "Varejista",
+      "responsavelGeral": "Meireles",
+      "localizacao": "Vargem Grande - MA",
+      "descricao": "",
+      "createdAt": "2026-09-09T11:39:19.692Z",
+      "updatedAt": "2026-09-09T11:39:19.692Z"
+    },
+    {
+      "id": 12,
+      "nome": "Região BDE",
+      "unidade": "Filial",
+      "setor": "Varejista",
+      "responsavelGeral": "Ricardo",
+      "localizacao": "Balsas - MA",
+      "descricao": "",
+      "createdAt": "2026-09-09T11:39:51.650Z",
+      "updatedAt": "2026-09-09T11:39:51.650Z"
+    },
+    {
+      "id": 13,
+      "nome": "Região ARD",
+      "unidade": "Filial",
+      "setor": "Varejista",
+      "responsavelGeral": "Alecsandro",
+      "localizacao": "Araripina - PE",
+      "descricao": "",
+      "createdAt": "2026-09-09T11:40:22.368Z",
+      "updatedAt": "2026-09-09T11:40:22.368Z"
+    },
+    {
+      "id": 14,
+      "nome": "Região DBJ",
+      "unidade": "Filial",
+      "setor": "Varejista",
+      "responsavelGeral": "João Filho",
+      "localizacao": "Bom Jesus -PI",
+      "descricao": "",
+      "createdAt": "2026-09-09T11:40:49.803Z",
+      "updatedAt": "2026-09-09T11:40:49.803Z"
+    },
+    {
+      "id": 15,
+      "nome": "Região DCO",
+      "unidade": "Filial",
+      "setor": "Varejista",
+      "responsavelGeral": "Paulo",
+      "localizacao": "Colinas - MA",
+      "descricao": "",
+      "createdAt": "2026-09-09T11:41:18.686Z",
+      "updatedAt": "2026-09-09T11:41:18.686Z"
+    },
+    {
+      "id": 16,
+      "nome": "Região DZE",
+      "unidade": "Filial",
+      "setor": "Varejista",
+      "responsavelGeral": "Alex",
+      "localizacao": "Zé Doca - MA",
+      "descricao": "",
+      "createdAt": "2026-09-09T11:41:49.458Z",
+      "updatedAt": "2026-09-09T11:41:49.458Z"
+    },
+    {
+      "id": 17,
+      "nome": "Região DCB",
+      "unidade": "FIlial",
+      "setor": "Varejista",
+      "responsavelGeral": "À Definir",
+      "localizacao": "Canto do Buriti - PI",
+      "descricao": "",
+      "createdAt": "2026-09-09T11:43:52.801Z",
+      "updatedAt": "2026-09-09T11:43:52.801Z"
+    },
+    {
+      "id": 18,
+      "nome": "Região LED",
+      "unidade": "Filial",
+      "setor": "Varejista",
+      "responsavelGeral": "Alan",
+      "localizacao": "Luiz Eduardo Magalhães - BA",
+      "descricao": "",
+      "createdAt": "2026-09-09T11:44:49.323Z",
+      "updatedAt": "2026-09-09T11:44:49.323Z"
+    },
+    {
+      "id": 19,
+      "nome": "Região PDE",
+      "unidade": "Filial",
+      "setor": "Varejista",
+      "responsavelGeral": "Berto",
+      "localizacao": "Palmas - TO",
+      "descricao": "",
+      "createdAt": "2026-09-09T11:51:50.702Z",
+      "updatedAt": "2026-09-09T11:51:50.702Z"
+    },
+    {
+      "id": 20,
+      "nome": "Região TUD",
+      "unidade": "Filial",
+      "setor": "Varejista",
+      "responsavelGeral": "Zé Maria",
+      "localizacao": "Tutóia - MA",
+      "descricao": "",
+      "createdAt": "2026-09-09T12:43:01.538Z",
+      "updatedAt": "2026-09-09T12:43:01.538Z"
+    },
+    {
+      "id": 21,
+      "nome": "Região BDF",
+      "unidade": "Filial",
+      "setor": "Varejista",
+      "responsavelGeral": "Chagas",
+      "localizacao": "Barreiras - BA",
+      "descricao": "",
+      "createdAt": "2026-09-09T12:43:27.537Z",
+      "updatedAt": "2026-09-09T12:43:27.537Z"
+    },
+    {
+      "id": 22,
+      "nome": "Região PIC",
+      "unidade": "Filial",
+      "setor": "Varejista",
+      "responsavelGeral": "José",
+      "localizacao": "Picos - PI",
+      "descricao": "",
+      "createdAt": "2026-09-09T12:43:54.093Z",
+      "updatedAt": "2026-09-09T12:43:54.093Z"
+    },
+    {
+      "id": 23,
+      "nome": "Região FLD",
+      "unidade": "Filial",
+      "setor": "Varejista",
+      "responsavelGeral": "F. Costa",
+      "localizacao": "Floriano - PI",
+      "descricao": "",
+      "createdAt": "2026-09-09T12:44:25.257Z",
+      "updatedAt": "2026-09-09T12:44:25.257Z"
+    },
+    {
+      "id": 24,
+      "nome": "Região BCD",
+      "unidade": "Filial",
+      "setor": "Varejista",
+      "responsavelGeral": "Paulo",
+      "localizacao": "Bacabal - MA",
+      "descricao": "",
+      "createdAt": "2026-09-09T12:44:45.700Z",
+      "updatedAt": "2026-09-09T12:44:45.700Z"
+    },
+    {
+      "id": 25,
+      "nome": "Região IDC",
+      "unidade": "Filial",
+      "setor": "Varejista",
+      "responsavelGeral": "Oliveira",
+      "localizacao": "Imperatriz - MA",
+      "descricao": "",
+      "createdAt": "2026-09-09T12:45:22.982Z",
+      "updatedAt": "2026-09-09T12:45:22.982Z"
+    },
+    {
+      "id": 26,
+      "nome": "Região PID",
+      "unidade": "Filial",
+      "setor": "Varejista",
+      "responsavelGeral": "Dannyel",
+      "localizacao": "Piripiri - PI",
+      "descricao": "",
+      "createdAt": "2026-09-09T12:45:50.908Z",
+      "updatedAt": "2026-09-09T12:45:50.908Z"
+    },
+    {
+      "id": 27,
+      "nome": "Região CHD",
+      "unidade": "Filial",
+      "setor": "Varejista",
+      "responsavelGeral": "Alex",
+      "localizacao": "Chapadinha - MA",
+      "descricao": "",
+      "createdAt": "2026-09-09T12:46:12.334Z",
+      "updatedAt": "2026-09-09T12:46:12.334Z"
+    },
+    {
+      "id": 28,
+      "nome": "Região PAD",
+      "unidade": "Filial",
+      "setor": "Varejista",
+      "responsavelGeral": "De Paula",
+      "localizacao": "Parnaíba _PI",
+      "descricao": "",
+      "createdAt": "2026-09-09T12:46:39.926Z",
+      "updatedAt": "2026-09-09T12:46:39.926Z"
+    },
+    {
+      "id": 29,
+      "nome": "Região PDC",
+      "unidade": "Filial",
+      "setor": "Varejista",
+      "responsavelGeral": "Marivaldo",
+      "localizacao": "Petrolina - PE",
+      "descricao": "",
+      "createdAt": "2026-09-09T12:47:04.122Z",
+      "updatedAt": "2026-09-09T12:47:04.122Z"
+    },
+    {
+      "id": 30,
+      "nome": "Região PDF",
+      "unidade": "Filial",
+      "setor": "Varejista",
+      "responsavelGeral": "Jorge",
+      "localizacao": "Pedreiras - MA",
+      "descricao": "",
+      "createdAt": "2026-09-09T12:47:25.806Z",
+      "updatedAt": "2026-09-09T12:47:25.806Z"
+    },
+    {
+      "id": 31,
+      "nome": "Região DAB",
+      "unidade": "Filial",
+      "setor": "Varejista",
+      "responsavelGeral": "Claudio",
+      "localizacao": "Água Branca - PI",
+      "descricao": "",
+      "createdAt": "2026-09-09T12:47:52.810Z",
+      "updatedAt": "2026-09-09T12:47:52.810Z"
+    },
+    {
+      "id": 32,
+      "nome": "Região OEI",
+      "unidade": "Filial",
+      "setor": "Varejista",
+      "responsavelGeral": "Manoel",
+      "localizacao": "Oeiras - PI",
+      "descricao": "",
+      "createdAt": "2026-09-09T12:48:14.221Z",
+      "updatedAt": "2026-09-09T12:48:14.221Z"
+    },
+    {
+      "id": 33,
+      "nome": "Região CDP",
+      "unidade": "Filial",
+      "setor": "Varejista",
+      "responsavelGeral": "Mauricio",
+      "localizacao": "Caxias - MA",
+      "descricao": "",
+      "createdAt": "2026-09-09T12:48:33.037Z",
+      "updatedAt": "2026-09-09T12:48:33.037Z"
+    },
+    {
+      "id": 34,
+      "nome": "Região DSI",
+      "unidade": "Filial",
+      "setor": "Varejista",
+      "responsavelGeral": "Diniz",
+      "localizacao": "Santa Inês - MA",
+      "descricao": "",
+      "createdAt": "2026-09-09T12:48:55.669Z",
+      "updatedAt": "2026-09-09T12:48:55.669Z"
     }
   ],
   "departamentos": [
@@ -115,6 +390,206 @@
       "organizacaoId": 9,
       "createdAt": "2026-09-08T20:05:15.972Z",
       "updatedAt": "2026-09-08T20:05:42.719Z"
+    },
+    {
+      "id": 17,
+      "nome": "Depósito",
+      "descricao": "Última atualização realizada em: 13/01/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Paulo (COM) e Carlos (DCO)",
+      "organizacaoId": 15,
+      "createdAt": "2026-09-09T12:05:26.992Z",
+      "updatedAt": "2026-09-09T12:53:36.861Z"
+    },
+    {
+      "id": 18,
+      "nome": "Depósito",
+      "descricao": "Última atualização realizada em: 13/01/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Charles (BCO) e Julio (DBC)",
+      "organizacaoId": 10,
+      "createdAt": "2026-09-09T12:50:13.718Z",
+      "updatedAt": "2026-09-09T12:50:13.718Z"
+    },
+    {
+      "id": 19,
+      "nome": "Depósito",
+      "descricao": "Última atualização realizada em: 13/01/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Meireles (VAG) e Waldey (DVG)",
+      "organizacaoId": 11,
+      "createdAt": "2026-09-09T12:50:55.422Z",
+      "updatedAt": "2026-09-09T12:50:55.422Z"
+    },
+    {
+      "id": 20,
+      "nome": "Depósito",
+      "descricao": "Última atualização realizada em: 13/01/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Ricardo (BAL) e Edilson (BDE)",
+      "organizacaoId": 12,
+      "createdAt": "2026-09-09T12:51:33.900Z",
+      "updatedAt": "2026-09-09T12:51:33.900Z"
+    },
+    {
+      "id": 21,
+      "nome": "Depósito",
+      "descricao": "Última atualização realizada em: 13/01/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Alecsandro (ARP) e Fernando (ARD)",
+      "organizacaoId": 13,
+      "createdAt": "2026-09-09T12:52:14.845Z",
+      "updatedAt": "2026-09-09T12:52:14.845Z"
+    },
+    {
+      "id": 22,
+      "nome": "Depósito",
+      "descricao": "Última atualização realizada em: 13/01/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: João Filho (BOJ) e Carlos Augusto (DBJ)",
+      "organizacaoId": 14,
+      "createdAt": "2026-09-09T12:52:59.720Z",
+      "updatedAt": "2026-09-09T12:52:59.720Z"
+    },
+    {
+      "id": 23,
+      "nome": "Depósito",
+      "descricao": "Última atualização realizada em: 13/01/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Alex (ZED) e Naldo (DZE)",
+      "organizacaoId": 16,
+      "createdAt": "2026-09-09T12:54:11.135Z",
+      "updatedAt": "2026-09-09T12:54:11.135Z"
+    },
+    {
+      "id": 24,
+      "nome": "Depósito",
+      "descricao": "Última atualização realizada em: 13/01/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Radiel (BCO) e Ediano (DCB)",
+      "organizacaoId": 17,
+      "createdAt": "2026-09-09T12:54:50.056Z",
+      "updatedAt": "2026-09-09T12:54:50.056Z"
+    },
+    {
+      "id": 25,
+      "nome": "Depósito",
+      "descricao": "Última atualização realizada em: 15/01/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Alan (LEM) e Naamã (LED)",
+      "organizacaoId": 18,
+      "createdAt": "2026-09-09T13:03:53.709Z",
+      "updatedAt": "2026-09-09T13:03:53.709Z"
+    },
+    {
+      "id": 26,
+      "nome": "Depósito",
+      "descricao": "Última atualização realizada em: 13/01/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Berto (PAM) e Uelton (PDE)",
+      "organizacaoId": 19,
+      "createdAt": "2026-09-09T13:04:29.508Z",
+      "updatedAt": "2026-09-09T13:04:29.508Z"
+    },
+    {
+      "id": 27,
+      "nome": "Depósito",
+      "descricao": "Última atualização realizada em: 13/01/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Zé Maria (TUT) e André (TUD)",
+      "organizacaoId": 20,
+      "createdAt": "2026-09-09T13:05:34.997Z",
+      "updatedAt": "2026-09-09T13:05:34.997Z"
+    },
+    {
+      "id": 28,
+      "nome": "Depósito",
+      "descricao": "Última atualização realizada em: 13/01/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Chagas (BHM) e Amauri (BDF)",
+      "organizacaoId": 21,
+      "createdAt": "2026-09-09T13:06:39.451Z",
+      "updatedAt": "2026-09-09T13:06:39.451Z"
+    },
+    {
+      "id": 29,
+      "nome": "Depósito",
+      "descricao": "Última atualização realizada em: 22/01/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: José Alves (PIC) e Evânio (DPC)",
+      "organizacaoId": 22,
+      "createdAt": "2026-09-09T13:07:20.791Z",
+      "updatedAt": "2026-09-09T13:07:20.791Z"
+    },
+    {
+      "id": 30,
+      "nome": "Depósito",
+      "descricao": "Última atualização realizada em: 30/01/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: F. Costa (FLO) e Jardel (FLD)",
+      "organizacaoId": 23,
+      "createdAt": "2026-09-09T13:08:01.384Z",
+      "updatedAt": "2026-09-09T13:08:01.384Z"
+    },
+    {
+      "id": 31,
+      "nome": "Depósito",
+      "descricao": "Última atualização realizada em: 30/01/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Paulo (BAC) e André (BCD)",
+      "organizacaoId": 24,
+      "createdAt": "2026-09-09T13:08:48.898Z",
+      "updatedAt": "2026-09-09T13:08:48.898Z"
+    },
+    {
+      "id": 32,
+      "nome": "Depósito",
+      "descricao": "Última atualização realizada em: 11/12/2025\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Oliveira (IDC) e Valderico (IDC)",
+      "organizacaoId": 25,
+      "createdAt": "2026-09-09T13:09:30.469Z",
+      "updatedAt": "2026-09-09T13:09:30.469Z"
+    },
+    {
+      "id": 33,
+      "nome": "Depósito",
+      "descricao": "Última atualização realizada em: 04/02/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Dannyel (PIR) e Jarbson (PID)",
+      "organizacaoId": 26,
+      "createdAt": "2026-09-09T13:10:12.151Z",
+      "updatedAt": "2026-09-09T13:10:12.151Z"
+    },
+    {
+      "id": 34,
+      "nome": "Depósito",
+      "descricao": "Última atualização realizada em: 13/01/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Alex (CHA) e Josivaldo (CHD)",
+      "organizacaoId": 27,
+      "createdAt": "2026-09-09T13:10:56.249Z",
+      "updatedAt": "2026-09-09T13:10:56.249Z"
+    },
+    {
+      "id": 35,
+      "nome": "Depósito",
+      "descricao": "Última atualização realizada em: 22/01/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: De Paula (PAR) e Altair (PAD)",
+      "organizacaoId": 28,
+      "createdAt": "2026-09-09T13:12:51.374Z",
+      "updatedAt": "2026-09-09T13:12:51.374Z"
+    },
+    {
+      "id": 36,
+      "nome": "Depósito",
+      "descricao": "Última atualização realizada em: 04/02/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Marivaldo (PET) e Fernandes (PDC)",
+      "organizacaoId": 29,
+      "createdAt": "2026-09-09T13:13:50.398Z",
+      "updatedAt": "2026-09-09T13:13:50.398Z"
+    },
+    {
+      "id": 37,
+      "nome": "Depósito",
+      "descricao": "Última atualização realizada em: 13/01/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Jorge (PED) e Sirley (PDF)",
+      "organizacaoId": 30,
+      "createdAt": "2026-09-09T13:14:47.617Z",
+      "updatedAt": "2026-09-09T13:14:47.617Z"
+    },
+    {
+      "id": 38,
+      "nome": "Depósito",
+      "descricao": "Última atualização realizada em: 20/03/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Claudio (ABR) e Davy (DAB)",
+      "organizacaoId": 31,
+      "createdAt": "2026-09-09T13:15:27.949Z",
+      "updatedAt": "2026-09-09T13:15:27.949Z"
+    },
+    {
+      "id": 39,
+      "nome": "Depósito",
+      "descricao": "Última atualização realizada em: 13/01/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Manoel (OEI), Silvestre (OEI) e  Valdemir (OEI)",
+      "organizacaoId": 32,
+      "createdAt": "2026-09-09T13:16:31.458Z",
+      "updatedAt": "2026-09-09T13:16:31.458Z"
+    },
+    {
+      "id": 40,
+      "nome": "Depósito",
+      "descricao": "Última atualização realizada em: 13/01/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Mauricio (CAX) e Fernandes (CDP)",
+      "organizacaoId": 33,
+      "createdAt": "2026-09-09T13:17:09.322Z",
+      "updatedAt": "2026-09-09T13:17:09.322Z"
+    },
+    {
+      "id": 41,
+      "nome": "Depósito",
+      "descricao": "Última atualização realizada em: 13/01/2026\nEquipe | Elaborado: Padronização de Processos Logísticos\nAprovado: Diniz (SIN) e Viana (DSI)",
+      "organizacaoId": 34,
+      "createdAt": "2026-09-09T13:17:40.215Z",
+      "updatedAt": "2026-09-09T13:17:40.215Z"
     }
   ],
   "nodes": [
@@ -1227,13 +1702,273 @@
       "parentId": 154,
       "createdAt": "2026-09-08T20:12:37.389Z",
       "updatedAt": "2026-09-08T20:12:37.389Z"
+    },
+    {
+      "id": 156,
+      "nome": "Paulo",
+      "cargo": "GERENTE",
+      "observacoes": "",
+      "departamentoId": 17,
+      "parentId": null,
+      "createdAt": "2026-09-09T12:05:41.220Z",
+      "updatedAt": "2026-09-09T12:05:41.220Z"
+    },
+    {
+      "id": 157,
+      "nome": "David",
+      "cargo": "PREVISÃO",
+      "observacoes": "",
+      "departamentoId": 17,
+      "parentId": 156,
+      "createdAt": "2026-09-09T12:05:53.157Z",
+      "updatedAt": "2026-09-09T12:05:53.157Z"
+    },
+    {
+      "id": 158,
+      "nome": "Charles",
+      "cargo": "GERENTE",
+      "observacoes": "",
+      "departamentoId": 18,
+      "parentId": null,
+      "createdAt": "2026-09-09T13:22:08.914Z",
+      "updatedAt": "2026-09-09T13:22:08.914Z"
+    },
+    {
+      "id": 159,
+      "nome": "Luan",
+      "cargo": "CHEFE DE ELETRO",
+      "observacoes": "",
+      "departamentoId": 18,
+      "parentId": 158,
+      "createdAt": "2026-09-09T13:22:26.291Z",
+      "updatedAt": "2026-09-09T13:22:26.291Z"
+    },
+    {
+      "id": 160,
+      "nome": "Julio",
+      "cargo": "LÍDER DE DEPÓSITO",
+      "observacoes": "",
+      "departamentoId": 18,
+      "parentId": 158,
+      "createdAt": "2026-09-09T13:22:42.797Z",
+      "updatedAt": "2026-09-09T13:22:42.797Z"
+    },
+    {
+      "id": 161,
+      "nome": "Hildglan",
+      "cargo": "ESTOQUISTA",
+      "observacoes": "",
+      "departamentoId": 18,
+      "parentId": 158,
+      "createdAt": "2026-09-09T13:22:57.513Z",
+      "updatedAt": "2026-09-09T13:22:57.513Z"
+    },
+    {
+      "id": 162,
+      "nome": "Luis Eduardo",
+      "cargo": "AUX. DEPÓSITO",
+      "observacoes": "",
+      "departamentoId": 18,
+      "parentId": 160,
+      "createdAt": "2026-09-09T13:23:23.740Z",
+      "updatedAt": "2026-09-09T13:23:23.740Z"
+    },
+    {
+      "id": 163,
+      "nome": "Lucas",
+      "cargo": "Motorista",
+      "observacoes": "",
+      "departamentoId": 18,
+      "parentId": 160,
+      "createdAt": "2026-09-09T13:23:36.938Z",
+      "updatedAt": "2026-09-09T13:23:36.938Z"
+    },
+    {
+      "id": 164,
+      "nome": "Pedro",
+      "cargo": "MOTORISTA",
+      "observacoes": "",
+      "departamentoId": 18,
+      "parentId": 163,
+      "createdAt": "2026-09-09T13:23:53.920Z",
+      "updatedAt": "2026-09-09T13:23:53.920Z"
+    },
+    {
+      "id": 165,
+      "nome": "Wenas",
+      "cargo": "AUX. ENTREGAS",
+      "observacoes": "",
+      "departamentoId": 18,
+      "parentId": 160,
+      "createdAt": "2026-09-09T13:24:15.331Z",
+      "updatedAt": "2026-09-09T13:24:15.331Z"
+    },
+    {
+      "id": 166,
+      "nome": "Lucas Leão",
+      "cargo": "AUX. ENTREGAS",
+      "observacoes": "",
+      "departamentoId": 18,
+      "parentId": 165,
+      "createdAt": "2026-09-09T13:24:29.669Z",
+      "updatedAt": "2026-09-09T13:24:29.669Z"
+    },
+    {
+      "id": 167,
+      "nome": "Juvenal",
+      "cargo": "MONTADOR",
+      "observacoes": "",
+      "departamentoId": 18,
+      "parentId": 160,
+      "createdAt": "2026-09-09T13:24:45.596Z",
+      "updatedAt": "2026-09-09T13:24:45.596Z"
+    },
+    {
+      "id": 168,
+      "nome": "Wallace",
+      "cargo": "MONTADOR",
+      "observacoes": "",
+      "departamentoId": 18,
+      "parentId": 167,
+      "createdAt": "2026-09-09T13:24:56.013Z",
+      "updatedAt": "2026-09-09T13:24:56.013Z"
+    },
+    {
+      "id": 169,
+      "nome": "Meireles",
+      "cargo": "GERENTE",
+      "observacoes": "",
+      "departamentoId": 19,
+      "parentId": null,
+      "createdAt": "2026-09-09T13:25:15.300Z",
+      "updatedAt": "2026-09-09T13:25:15.300Z"
+    },
+    {
+      "id": 170,
+      "nome": "Tiago",
+      "cargo": "CHEFE DE ELETRO",
+      "observacoes": "",
+      "departamentoId": 19,
+      "parentId": 169,
+      "createdAt": "2026-09-09T13:25:26.073Z",
+      "updatedAt": "2026-09-09T13:25:26.073Z"
+    },
+    {
+      "id": 171,
+      "nome": "Waldey",
+      "cargo": "LÍDER DE DEPÓSITO",
+      "observacoes": "",
+      "departamentoId": 19,
+      "parentId": 169,
+      "createdAt": "2026-09-09T13:25:34.612Z",
+      "updatedAt": "2026-09-09T13:25:34.612Z"
+    },
+    {
+      "id": 172,
+      "nome": "Marcos",
+      "cargo": "ESTOQUISTA",
+      "observacoes": "",
+      "departamentoId": 19,
+      "parentId": 169,
+      "createdAt": "2026-09-09T13:25:41.881Z",
+      "updatedAt": "2026-09-09T13:25:41.882Z"
+    },
+    {
+      "id": 173,
+      "nome": "Hilton",
+      "cargo": "AUX. ESTOQUE",
+      "observacoes": "",
+      "departamentoId": 19,
+      "parentId": 171,
+      "createdAt": "2026-09-09T13:26:08.147Z",
+      "updatedAt": "2026-09-09T13:26:08.147Z"
+    },
+    {
+      "id": 174,
+      "nome": "Wellington",
+      "cargo": "AUX. DEPÓSITO",
+      "observacoes": "",
+      "departamentoId": 19,
+      "parentId": 171,
+      "createdAt": "2026-09-09T13:26:23.827Z",
+      "updatedAt": "2026-09-09T13:26:23.827Z"
+    },
+    {
+      "id": 175,
+      "nome": "Leonel",
+      "cargo": "MOTORISTA",
+      "observacoes": "",
+      "departamentoId": 19,
+      "parentId": 171,
+      "createdAt": "2026-09-09T13:26:41.016Z",
+      "updatedAt": "2026-09-09T13:26:41.016Z"
+    },
+    {
+      "id": 176,
+      "nome": "Irineu",
+      "cargo": "MOTORISTA",
+      "observacoes": "",
+      "departamentoId": 19,
+      "parentId": 175,
+      "createdAt": "2026-09-09T13:26:53.038Z",
+      "updatedAt": "2026-09-09T13:26:53.038Z"
+    },
+    {
+      "id": 177,
+      "nome": "Sousa",
+      "cargo": "MOTORISTA",
+      "observacoes": "",
+      "departamentoId": 19,
+      "parentId": 176,
+      "createdAt": "2026-09-09T13:27:00.861Z",
+      "updatedAt": "2026-09-09T13:27:00.861Z"
+    },
+    {
+      "id": 178,
+      "nome": "Paulo",
+      "cargo": "AUX. ENTREGAS",
+      "observacoes": "",
+      "departamentoId": 19,
+      "parentId": 171,
+      "createdAt": "2026-09-09T13:27:11.674Z",
+      "updatedAt": "2026-09-09T13:27:11.674Z"
+    },
+    {
+      "id": 179,
+      "nome": "Gustavo",
+      "cargo": "AUX. ENTREGAS",
+      "observacoes": "",
+      "departamentoId": 19,
+      "parentId": 178,
+      "createdAt": "2026-09-09T13:27:24.695Z",
+      "updatedAt": "2026-09-09T13:27:24.695Z"
+    },
+    {
+      "id": 180,
+      "nome": "Rafael",
+      "cargo": "MONTADOR",
+      "observacoes": "",
+      "departamentoId": 19,
+      "parentId": 171,
+      "createdAt": "2026-09-09T13:27:34.122Z",
+      "updatedAt": "2026-09-09T13:27:34.122Z"
+    },
+    {
+      "id": 181,
+      "nome": "Kenedy",
+      "cargo": "MONTADOR",
+      "observacoes": "",
+      "departamentoId": 19,
+      "parentId": 180,
+      "createdAt": "2026-09-09T13:27:44.411Z",
+      "updatedAt": "2026-09-09T13:27:44.411Z"
     }
   ],
   "meta": {
     "nextId": {
-      "organizacoes": 10,
-      "departamentos": 17,
-      "nodes": 156
+      "organizacoes": 35,
+      "departamentos": 42,
+      "nodes": 182
     }
   }
 }
